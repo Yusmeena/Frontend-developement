@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+                /* google search box */
+
+        .google-main-box{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .goggle-image{
+            width: 300px;
+            object-fit: contain;
+            object-position: center;
+            margin-top: 100px;
+            margin-bottom: 20px;
+                 
+            
+        }
+
+        .button-container{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .goggle-search-box{
+            width: 400px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 10px;
+            border: none;
+            box-shadow: 0px 0px 5px gray;
+            border-radius: 50px;
+        }
+
+        .google-feeling-button{
+            margin-left: 20px;
+        }
+
+        button{
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            font-weight: bold;
+            border: none;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="google-main-box">
+
+        <img class="goggle-image" src="image/google-logo.png" alt="google image">
+    
+        <div class="container-search-box">
+            <input class="goggle-search-box" type="text" placeholder="Search Google or type a URL">
+        </div>
+    
+        <div class="button-container">
+            <div class="google-search-button">
+                <button >Google Search</button>
+            </div>
+        
+            <div class="google-feeling-button">
+                <button >I'm Feeling Lucky</button>
+            </div>
+        </div>
+
+    </div>
+       
+</body>
+</html>

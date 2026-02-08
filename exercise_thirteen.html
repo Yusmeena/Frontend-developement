@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <style>
+        .name{
+            display: block;
+            margin-bottom: 3px;
+        }
+
+        .email{
+            display: block;
+            margin-bottom: 3px;
+        }
+
+        .para-appreciate{
+            font-family:'Times New Roman', Times, serif;
+            font-size: 14px;
+            font-weight: bold;
+            display: inline-block;
+            width: 200px;
+            vertical-align: middle;
+        }
+
+                /* google search box */
+        .goggle-search-box{
+            display: block;
+            width: 600px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            border: none;
+            box-shadow: 0px 0px 5px gray;
+            border-radius: 20px;
+            margin-top: 0px;
+            margin-left: 180px;
+            line-height: 5px;
+        }
+
+        .goggle-image{
+            display: block;
+            width: 100px;
+            height: 100px;
+            margin-left: 400px;
+            object-fit: contain;
+            object-position: center;
+            margin-bottom: 0px;
+            
+        }
+    </style>
+</head>
+<body>
+        <input class="name" type="text" placeholder="Name">
+        <input class="email" type="email" placeholder="Email">
+
+    <br>
+    <p class="para-appreciate">Thanks for chatting with our customer support. Would you like to take our quick survey?</p>
+    <button class="yes-button">
+        Yes
+    </button>
+    <button class="no-button">
+        No
+    </button>
+    <br>
+
+    <img class="goggle-image" src="image/google-logo.png" alt="google image">
+    <input class="goggle-search-box" type="text" placeholder="Search Google or type a URL">
+
+</body>
+</html>

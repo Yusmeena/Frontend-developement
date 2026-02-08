@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gmail iOS design</title>
+    <style>
+        .container{
+            width: 400px;
+            border: none;
+            padding-bottom: 20px;
+            padding-right: 15px;
+            box-shadow: 1px 2px 5px gray;
+            border-radius: 5px;
+            margin-left: 15px;
+            margin-top: 15px;
+        }
+
+        .inbox{
+            color: gray;
+            padding-top: 10px;
+            padding-left: 10px;
+            margin-bottom: 15px;
+        }
+
+        .info{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        /* .image-container{
+            margin-right: 10px;
+        } */
+        
+        .profile-image{
+            /* margin-top: 0px; */
+            height: 50px;
+            width: 50px;
+            object-fit: cover;
+            border-radius: 30px;
+            cursor: pointer;
+            margin-left: 10px;
+            margin-right: 10px;    
+        
+        }
+
+        .text-content{
+                 flex: 1;
+            }
+
+            div{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        .profile{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 3px;
+            }
+
+
+        .profile-name{
+            font-weight: bold;
+            font-size: 20px;
+          
+        }
+
+        .time{
+            
+            color: gray;
+        }
+
+        .service-render{
+            font-weight: bold;
+        }
+
+        .comment{
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="inbox">
+            ALL INBOXES
+        </div>
+
+        <div class="info">
+            <div class="image-container">
+                <img class="profile-image" src="image/cat.jpg" alt="cat">
+            </div>
+            <div class="text-content">
+                <div class="profile">
+                    <div class="profile-name">Chewy Promotions</div>
+                    <div class="time">4:58 PM</div>
+                </div>
+
+                
+                    <div class="service-render">Biggest sales of the year!</div>
+                    <div class="comment">Hey there! We're writing to tell you about our...</div>
+                
+            </div>
+           </div>
+
+           <!-- new row -->
+           <div class="info">
+            <div>
+                <img class="profile-image" src="image/dog.jpg" alt="cat">
+            </div>
+            <div class="text-content">
+                <div class="profile">
+                    <div class="profile-name">Best Buy</div>
+                    <div class="time">12:32 PM</div>
+                </div>
+                        <div class="service-render">Your Best Buy eReceipt</div>
+                        <div class="comment">Thank you for shopping at Best Buy, here is...</div>
+            </div>
+           </div>
+           
+           <!-- new row -->
+           <div class="info">
+            <div>
+                <img class="profile-image" src="image/cat2.jpg" alt="cat">
+            </div>
+            <div class="text-content">
+                <div class="profile">
+                    <div class="profile-name">Netflix</div>
+                    <div class="time">9:00 PM</div>
+                </div>
+                    <div class="service-render">Here's what's coming soon to Netflix</div>
+                    <div class="comment">Brand new movies and shows, old favorites...</div>
+               </div>
+           </div>
+    </div>
+
+    
+</body>
+</html>
